@@ -35,7 +35,7 @@ position: relative;
    top: 0;
    left: 0;
    z-index: 3;
-   background-color: rgba(59, 174, 212, 0.903);
+   background-color: rgba(59, 174, 212, 1);
 
    }
 
@@ -71,10 +71,19 @@ position: relative;
    display: flex;
    align-items: center;
 }*/
+.content{
+   font-size: 18px;
+   line-height: 25px;
+   padding-top: 70px;
 
-
-
-.header__menu--item {
+}
+.content h1{
+   text-align: center;
+}
+.content p{
+padding-bottom: 20px;
+}
+.header__menu--item{
    margin-right: 10px;
    display: flex;
    justify-content: space-between;
